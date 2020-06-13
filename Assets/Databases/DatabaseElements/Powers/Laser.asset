@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132e157471059104da3f12ae4922442a, type: 3}
+  m_Name: Laser
+  m_EditorClassIdentifier: 
+  itemName: Laser Beam
+  itemSprite: {fileID: 21300000, guid: 64893f2243137334c835133fb7c5f5bd, type: 3}
+  itemPrefab: {fileID: 1698962319971440483, guid: 68db69e22d96bd84083c0a507f9cdd35,
+    type: 3}
+  costType: 0
+  itemCost: 500
+  isDefault: 0
+  power: {fileID: 11400000, guid: 25ea5d7485201fe489735d95328e1627, type: 2}

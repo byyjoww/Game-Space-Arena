@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6183387126078990492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4368382893865095991}
+  - component: {fileID: 5490454713961971691}
+  - component: {fileID: 7642070381993469814}
+  m_Layer: 0
+  m_Name: DatabaseGeneric
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4368382893865095991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183387126078990492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3650562, y: 1.7342966, z: -309.9961}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5490454713961971691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183387126078990492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbce139c015084a44aed71054cd32093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  databases:
+  - {fileID: 11400000, guid: 92b6e81eabc309445a4314aeb5c6194c, type: 2}
+  - {fileID: 11400000, guid: 7ac5698dceb195b4b917630a3339ecd6, type: 2}
+  currencies: []
+  gameSprites:
+  - name: default
+    sprite: {fileID: 21300000, guid: 4df23d319f63e994b892bdc986018b3e, type: 3}
+  - name: softCurrency
+    sprite: {fileID: 21300000, guid: 6811476fe07fbcb439fa9bcd6f4adfa4, type: 3}
+  - name: hardCurrency
+    sprite: {fileID: 21300000, guid: 9f897a0b2a4ccc44fbd8de70689e8117, type: 3}
+--- !u!114 &7642070381993469814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183387126078990492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f181af0b41ac074aa103e7d90c0d0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profileItemList: []
+  profileCurrencyList: []

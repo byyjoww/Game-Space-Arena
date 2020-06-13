@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6183387126078990492
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4368382893865095991}
+  - component: {fileID: 5490454713961971691}
+  - component: {fileID: 5980617694234442938}
+  m_Layer: 0
+  m_Name: Database
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4368382893865095991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183387126078990492}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.3650562, y: 1.7342966, z: -309.9961}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5490454713961971691
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183387126078990492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbce139c015084a44aed71054cd32093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 5980617694234442938}
+  databases:
+  - {fileID: 11400000, guid: 9fdac47265b70d041973e186a4b3c453, type: 2}
+  - {fileID: 11400000, guid: 6016efc261c85fa4e93c1a155dee8205, type: 2}
+  - {fileID: 11400000, guid: 30ced088499583848bc2b78feadce14a, type: 2}
+  - {fileID: 11400000, guid: 1faae93dda5fc6f47b24f9257e82b8f2, type: 2}
+  - {fileID: 11400000, guid: f1bc557458b95dc43b10ca98ec593969, type: 2}
+--- !u!114 &5980617694234442938
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6183387126078990492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f181af0b41ac074aa103e7d90c0d0c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profileItemList: []

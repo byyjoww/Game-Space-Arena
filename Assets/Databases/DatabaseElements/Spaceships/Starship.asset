@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e4ac2f1406b10d41a7421b900820374, type: 3}
+  m_Name: Starship
+  m_EditorClassIdentifier: 
+  itemName: Starship
+  itemSprite: {fileID: 21300000, guid: a14931ae16fd4db4e9292b11791e22f8, type: 3}
+  costType: 1
+  itemCost: 1000
+  itemPrefab: {fileID: 2053453653150172039, guid: f79496a5711e6e64e95de04e01fc083b,
+    type: 3}
+  defaultAmount: 0

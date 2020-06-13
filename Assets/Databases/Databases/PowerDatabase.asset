@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d421311712410140a9fe42a57625a66, type: 3}
+  m_Name: PowerDatabase
+  m_EditorClassIdentifier: 
+  sectionType: 1
+  databaseElements:
+  - {fileID: 11400000, guid: 673c7efba5f352446ae7f17ace0521c6, type: 2}
+  - {fileID: 11400000, guid: e9f5e813ebbfd2a44875c9a058eb115a, type: 2}
+  - {fileID: 11400000, guid: 7b0430420d66c6a4dab51432b44d8429, type: 2}
+  - {fileID: 11400000, guid: abc04cfc517e7144e8cb0236e72f478e, type: 2}
