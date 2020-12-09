@@ -5,7 +5,7 @@ using UnityEngine;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] private GameObject objectToToggle;
-    [SerializeField] private bool isPaused;
+    public bool isPaused;
 
     public void Toggle()
     {
@@ -33,7 +33,7 @@ public class PauseMenu : MonoBehaviour
         GetComponent<LevelLoader>().ResetLevel();
     }
     
-    private void StopTime()
+    public void StopTime()
     {
         if (isPaused == false)
         {
@@ -43,7 +43,7 @@ public class PauseMenu : MonoBehaviour
         else Debug.Log("Time is already stopped!");
     }
 
-    private void StartTime()
+    public void StartTime()
     {
         if (isPaused == true)
         {

@@ -38,6 +38,7 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
     private Canvas canvas;
     private Camera cam;
 
+    public Vector2 Input { get => input; set => input = value; }
     private Vector2 input = Vector2.zero;
 
     protected virtual void Start()
@@ -71,6 +72,15 @@ public class Joystick : MonoBehaviour, IPointerDownHandler, IDragHandler, IPoint
         Vector2 position = RectTransformUtility.WorldToScreenPoint(cam, background.position);
         Vector2 radius = background.sizeDelta / 2;
         input = (eventData.position - position) / (radius * canvas.scaleFactor);
+        FormatInput();
+        HandleInput(input.magnitude, input.normalized, radius, cam);
+        handle.anchoredPosition = input * radius * handleRange;
+    }
+
+    public void InputOverride(Vector2 _input)
+    {
+        Vector2 radius = background.sizeDelta / 2;
+        input = _input;
         FormatInput();
         HandleInput(input.magnitude, input.normalized, radius, cam);
         handle.anchoredPosition = input * radius * handleRange;
